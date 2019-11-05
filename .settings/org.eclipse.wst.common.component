@@ -4,10 +4,7 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/FeihuTool_Convert/FeihuTool_Convert">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <property name="java-output-path" value="/feihuTool_Tomcat_SpringMVC_JPA_Postgres/target/classes"/>
-        <property name="context-root" value="feihuTool_Tomcat_SpringMVC_JPA_Postgres"/>
+        <property name="context-root" value="feihuTool_tomcat"/>
     </wb-module>
 </project-modules>
